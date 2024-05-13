@@ -14,6 +14,6 @@ function rollDice(){
 
     }
 
-    diceResult.textContent = `dice: ${values.join(', ')}`
+    diceResult.textContent = `Dice Rolled: ${values.join(', ')}`
     diceImages.innerHTML = images.join('');
 }
